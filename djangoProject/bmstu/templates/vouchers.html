@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Список лагерных смен{% endblock %}
+
+{% block content %}
+<ul>
+    {% for voucher in data.vouchers %}
+       {% include 'voucher_element.html' with elem=voucher %}
+        <div>Дата: {{ voucher.date }}</div>
+    {% empty %}
+        <li>Список пуст</li>
+    {% endfor %}
+</ul>
+{% endblock %}

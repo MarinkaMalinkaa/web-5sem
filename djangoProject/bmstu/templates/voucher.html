@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block title %}Лагерная смена №{{ data.voucher.id }}{% endblock %}
+
+{% block content %}
+    <div>Тематика: {{ data.voucher.themes }}</div>
+    <div>Даты смены: {{ data.voucher.date }}</div>
+    <div>Длительность: {{ data.voucher.duration }}</div>
+    <div>Описание: {{ data.voucher.description }}</div>
+    <div>Цена: {{ data.voucher.price }}</div>
+    <div> {{ data.voucher.img }}</div>
+    <img src="{{ data.voucher.img }}">
+{% endblock %}
