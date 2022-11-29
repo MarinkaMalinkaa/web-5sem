@@ -12,6 +12,7 @@ class Voucher(models.Model):
     duration = models.CharField(max_length=30)
     description = models.CharField(max_length=255)
     price = models.IntegerField()
+    img = models.CharField(max_length=30)
 
     class Meta:
         managed = False

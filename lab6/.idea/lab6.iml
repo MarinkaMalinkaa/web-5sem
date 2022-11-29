@@ -3,8 +3,8 @@
   <component name="FacetManager">
     <facet type="django" name="Django">
       <configuration>
-        <option name="rootFolder" value="$MODULE_DIR$/laba3" />
-        <option name="settingsModule" value="bmstu/settings.py" />
+        <option name="rootFolder" value="$MODULE_DIR$" />
+        <option name="settingsModule" value="lab6/settings.py" />
         <option name="manageScript" value="$MODULE_DIR$/manage.py" />
         <option name="environment" value="&lt;map/&gt;" />
         <option name="doNotUseTestRunner" value="false" />
@@ -23,8 +23,7 @@
     <option name="TEMPLATE_CONFIGURATION" value="Django" />
     <option name="TEMPLATE_FOLDERS">
       <list>
-        <option value="$MODULE_DIR$/laba3/templates" />
-        <option value="$MODULE_DIR$/../bmstu\templates" />
+        <option value="$MODULE_DIR$/../lab6\templates" />
       </list>
     </option>
   </component>

@@ -38,3 +38,62 @@ p{
     transform: rotate(360deg);
   }
 }
+body{
+  background: #cc80ff;
+}
+
+.block-level {
+  width: 250px;
+  height: 270px;
+  margin: 10px 20px 70px 20px;
+  position:relative;
+  float: left;
+  border: 3px solid black;
+  border-radius: 10px;
+  text-align: center; /* Выравнивание содержимого по-центру */
+ }
+
+
+.text{
+  text-align: center;
+  font: italic small-caps bold 27px/2 cursive;
+
+}
+
+input{
+  width: 80%;
+  height: 40px;
+  margin: 20px ;
+  border-radius: 10px;
+
+}
+
+.basket{
+  text-align: right;
+  margin-right: 20px;
+  margin-top: -50px;
+
+}
+
+
+.button{
+  border-radius: 10px;
+  color: plum;
+}
+
+.button:hover{
+  border-radius: 10px;
+  color: plum;
+  background-color: darkorchid;
+}
+
+.info{
+  display: flex;
+  text-align: center;
+}
+
+.book-card{
+  border-radius: 10px;
+  color: plum;
+  background-color: mediumorchid;
+}
